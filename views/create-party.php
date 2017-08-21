@@ -30,7 +30,7 @@
           label="Label Text"
           value="Input text"
           dark
-          v-model="name"
+          v-model="party.name"
         ></v-text-field>
       </v-flex>
     </v-layout>
@@ -44,7 +44,7 @@
           label="Label Text"
           value="Input text"
           dark
-          v-model="creator"
+          v-model="party.creator"
         ></v-text-field>
       </v-flex>
     </v-layout>
@@ -58,7 +58,7 @@
           label="Label Text"
           value="Input text"
           dark
-          v-model="description"
+          v-model="party.description"
         ></v-text-field>
       </v-flex>
     </v-layout>
@@ -72,7 +72,7 @@
           label="Label Text"
           value="Input text"
           dark
-          v-model="maxinvit"
+          v-model="party.maxinvit"
         ></v-text-field>
       </v-flex>
     </v-layout>
